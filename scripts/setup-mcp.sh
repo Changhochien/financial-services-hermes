@@ -5,7 +5,7 @@ PROFILE_DIR="$HOME/.hermes/profiles/$PROFILE_NAME"
 
 if [ ! -d "$PROFILE_DIR" ]; then
   echo "Profile directory not found: $PROFILE_DIR" >&2
-  echo "Install first: hermes profile install https://github.com/Changhochien/pi-financial-services-hermes --name $PROFILE_NAME --yes" >&2
+  echo "Install first: hermes profile install https://github.com/Changhochien/financial-services-hermes --name $PROFILE_NAME --yes" >&2
   exit 1
 fi
 

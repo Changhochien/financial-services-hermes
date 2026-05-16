@@ -5,7 +5,7 @@ Installable Hermes Agent profile distribution for financial-services workflows: 
 ## One-command install
 
 ```bash
-hermes profile install https://github.com/Changhochien/pi-financial-services-hermes --name financial-services --yes
+hermes profile install https://github.com/Changhochien/financial-services-hermes --name financial-services --yes
 ```
 
 Start Hermes with the profile:

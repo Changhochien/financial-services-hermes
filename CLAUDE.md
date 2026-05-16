@@ -3,7 +3,7 @@
 This repository is a clean Hermes Agent profile distribution. It is generated from `Changhochien/pi-financial-services` and designed to install with:
 
 ```bash
-hermes profile install https://github.com/Changhochien/pi-financial-services-hermes --name financial-services --yes
+hermes profile install https://github.com/Changhochien/financial-services-hermes --name financial-services --yes
 ```
 
 Do not add user data, credentials, sessions, memories, logs, workspaces, or local-only files to this repo. Profile user data is created on the installing machine and preserved by Hermes update semantics.
