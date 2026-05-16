@@ -1,0 +1,45 @@
+mcp_servers:
+  daloopa:
+    type: http
+    url: https://mcp.daloopa.com/server/mcp
+    enabled: false
+  morningstar:
+    type: http
+    url: https://mcp.morningstar.com/mcp
+    enabled: false
+  sp-global:
+    type: http
+    url: https://kfinance.kensho.com/integrations/mcp
+    enabled: false
+  factset:
+    type: http
+    url: https://mcp.factset.com/mcp
+    enabled: false
+  moodys:
+    type: http
+    url: https://api.moodys.com/genai-ready-data/m1/mcp
+    enabled: false
+  mtnewswire:
+    type: http
+    url: https://vast-mcp.blueskyapi.com/mtnewswires
+    enabled: false
+  aiera:
+    type: http
+    url: https://mcp-pub.aiera.com
+    enabled: false
+  lseg:
+    type: http
+    url: https://api.analytics.lseg.com/lfa/mcp
+    enabled: false
+  pitchbook:
+    type: http
+    url: https://premium.mcp.pitchbook.com/mcp
+    enabled: false
+  chronograph:
+    type: http
+    url: https://ai.chronograph.pe/mcp
+    enabled: false
+  egnyte:
+    type: http
+    url: https://mcp-server.egnyte.com/mcp
+    enabled: false

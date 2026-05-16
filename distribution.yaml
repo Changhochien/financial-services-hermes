@@ -1,0 +1,54 @@
+name: financial-services
+version: 0.1.0
+description: 'Hermes financial-services profile: investment banking, equity research,
+  private equity, wealth management, fund administration, accounting operations, partner
+  data, and institutional modeling workflows.'
+hermes_requires: '>=0.14.0'
+author: Changhochien
+license: MIT
+env_requires:
+- name: CAPIQ_API_KEY
+  description: CapIQ / S&P Kensho API key for financial data via MCP
+  required: false
+- name: DALOOPA_API_KEY
+  description: Daloopa API key for institutional financial model data
+  required: false
+- name: MORNINGSTAR_API_KEY
+  description: Morningstar API key for investment research data
+  required: false
+- name: FACTSET_API_KEY
+  description: FactSet API key for market, company, and estimates data
+  required: false
+- name: MOODYS_API_KEY
+  description: Moody's API key for credit and ratings data
+  required: false
+- name: MTNEWSWIRE_API_KEY
+  description: MT Newswire API key for market news
+  required: false
+- name: AIERA_API_KEY
+  description: Aiera API key for earnings calls, transcripts, and events
+  required: false
+- name: LSEG_API_KEY
+  description: LSEG / Refinitiv API key for market and analytics data
+  required: false
+- name: PITCHBOOK_API_KEY
+  description: PitchBook API key for private-market and transactions data
+  required: false
+- name: CHRONOGRAPH_API_KEY
+  description: Chronograph API key for private-capital portfolio data
+  required: false
+- name: EGNYTE_API_KEY
+  description: Egnyte API key for document-store access
+  required: false
+distribution_owned:
+- SOUL.md
+- config.yaml
+- mcp.json
+- skills/
+- scripts/
+- docs/
+- cron/
+- distribution.yaml
+- README.md
+- LICENSE
+- CLAUDE.md

@@ -1,0 +1,13 @@
+.env
+memories/
+sessions/
+logs/
+plans/
+workspace/
+home/
+state.db*
+auth.json
+local/
+.DS_Store
+__pycache__/
+*.pyc
